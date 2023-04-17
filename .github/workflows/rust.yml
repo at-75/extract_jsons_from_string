@@ -16,6 +16,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - name: Tree
+      run: tree
     - name: Make directory
       run: mkdir -p ./home/runner/work/extract_jsons_from_string/extract_jsons_from_string
     - name: Copy files
