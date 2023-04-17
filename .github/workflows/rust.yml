@@ -19,6 +19,6 @@ jobs:
     - name: Tree
       run: tree
     - name: Build
-      run: cargo build  --manifest-path=./rust/Cargo.toml--verbose 
+      run: cargo build  --manifest-path=./rust/Cargo.toml --verbose 
     - name: Run tests
       run: cargo test --verbose
