@@ -17,7 +17,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Copy files
-      run : cp -a ./rust ./extract_jsons_from_string
+      run : cp -a ./rust ./home/runner/work/extract_jsons_from_string/extract_jsons_from_string
     - name: Change working directory
       run: cd rust
     - name: Build
