@@ -1,9 +1,11 @@
 [package]
 name = "extract_jsons_from_string"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "A library to extract valid JSONs from a string to a vector"
-license = "MIT"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/at-75/extract_jsons_from_string"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
