@@ -1,6 +1,21 @@
 # About 
 Extract_JSON_from_string is library to extract valid JSONs from a raw string. If string contains an invalid JSONs it will return an ERROR string
 
+# Rust Installation
+Run the following Cargo command in your project directory:
+```
+cargo add extract_jsons_from_string
+```
+Or add the following line to your Cargo.toml:
+```
+extract_jsons_from_string = "0.1.3"
+```
+
+# Python Installation
+```bash
+pip install extract-json-from-string
+```
+
 # Python example
 
 ```python
