@@ -1,5 +1,5 @@
 # About 
-Extract_JSON_from_string is library to extract valid JSONs from a raw string. If string contains an invalid JSONs it will return an ERROR string
+Extract_JSON_from_string is library to extract valid JSONs from a raw string. If string contains an invalid JSON, it will return an ERROR message string.
 
 # Rust Installation
 Run the following Cargo command in your project directory:
