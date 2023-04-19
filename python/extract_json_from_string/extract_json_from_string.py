@@ -1,10 +1,3 @@
-# json='''This is text before json{}{}{
-# "kp": "girl",
-#   "at": "boy"
-#   "check":{
-#     "a":"t"
-#   }
-# }{"a":"q"}{"s":"x"}{}This is text after json'''
 def extract(s: str) -> list[str]:
   n = len(s)
   ab_score = 0
@@ -36,4 +29,3 @@ def extract(s: str) -> list[str]:
           return ["String contains invalid JSONS"]
       i += 1
   return v
-# print(extract(json))
